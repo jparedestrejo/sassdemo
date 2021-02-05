@@ -1,0 +1,20 @@
+//colors
+@import "components/variables";
+
+@import "components/mixin";
+@import "components/nesting";
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: right;
+    margin-top: 1em;
+}
+body {
+    background-color: $body-background-color; 
+     margin: 0%;
+     padding: 0.5em;       
+ }
+ h1{
+     color:$headlines-color;
+ }

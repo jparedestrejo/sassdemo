@@ -1,0 +1,70 @@
+#contactform {
+  background-color: #f1d38b;
+}
+
+@media (max-width: 1500px) {
+  #contactform {
+    width: 70%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1500px) {
+  #contactform input, #contactform textarea {
+    width: 95%;
+  }
+}
+
+@media (max-width: 360px) {
+  #contactform {
+    width: 100%;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  #contactform input, #contactform textarea {
+    width: 97%;
+  }
+}
+
+#contactform input[type=submit] {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#contactform fieldset {
+  padding: 0.5em;
+}
+
+@media (max-width: 360px) {
+  #contactform div {
+    display: block;
+    margin-top: 0%;
+  }
+}
+
+div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  justify-items: right;
+  margin-top: 1em;
+}
+
+body {
+  background-color: #990000;
+  margin: 0%;
+  padding: 0.5em;
+}
+
+h1 {
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,40 @@
+#contactform {
+    background-color: $form-background-color;
+  
+    &{
+        @include breakpoint(large){
+            @include form-center(70%,1300px); 
+        
+        };
+    }
+    input, textarea {
+        @include breakpoint(large){
+            @include width-input(95%);
+        }
+    }
+
+    
+    &{
+        @include breakpoint(small){
+            @include form-center(100%,360px); 
+        };
+    }
+    input, textarea {
+        @include breakpoint(small){
+            @include width-input(97%);
+        }
+    }
+    input[type=submit]{
+        width: fit-content;
+    }   
+    fieldset{
+        
+        padding: 0.5em;
+    }
+    div{
+        @include breakpoint(small){
+           display: block;
+           margin-top: 0%;
+        }
+    } 
+} 
